@@ -1,7 +1,7 @@
 import React from "react";
 
-const Nav =() =>{
-    return(
+const Nav = () => {
+    return (
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
@@ -9,8 +9,8 @@ const Nav =() =>{
                 <li><a href="/">Reservation</a></li>
                 <li><a href="/">Menu</a></li>
                 <li><a href="/">Order Online</a></li>
-                <li><a href="/">Login</a></li>
-                
+                <li><a class="login" href="/">Login</a></li>
+
             </ul>
         </nav>
     )

@@ -1,13 +1,14 @@
 import React from "react";
-import logo from  './assets/logoimage.png';
+import logo from './assets/logoimage.png';
 
-const Header = () =>{
-    return(
+const Header = () => {
+    return (
         <div>
-            <h1>Little lemon</h1>
-            <img src={logo} width={100} height={30} alt=""/>
+            <img class="logo" src={logo} width={100} height={30} alt="" />
+
+
         </div>
-        
+
     )
 }
 export default Header;
